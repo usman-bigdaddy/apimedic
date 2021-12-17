@@ -4,6 +4,10 @@ Using Boostrap as the front-end framework and Laravel as the
 backend framework and based on an MVC architecture, a toy web app was developed for diagnosis using a publicly available
 medical diagnosis API from https://apimedic.com/
 
+After signing up at https://apimedic.com/ , an auth token was given to make RESTful calls with.
+
+> Note: It is important to know that the auth token was changing dynamically and thus, we had to continously go to the apimedic site to gain the newest auth token 
+
 The app uses **MySQL as it's database**
 > The database configuration can be seen in the **env** file
 
